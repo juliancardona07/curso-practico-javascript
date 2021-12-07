@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 90%;
+  /* height: 100vh; */
+  margin: 0 auto;
+  background-image: url("./Images/fondo\ geometria.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  margin-block: 16px;
+  text-align: center;
+}
+
+.cuadrado,
+.triangulo,
+.triangulo_isosceles,
+.circulo {
+  margin-block-end: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 80%;
+  padding: 16px;
+}
+
+.cuadrado {
+  background-color: rgba(255, 235, 205, 0.782);
+}
+
+.triangulo,
+.triangulo_isosceles {
+  background-color: rgba(135, 175, 248, 0.837);
+}
+
+.circulo {
+  background-color: rgba(247, 207, 215, 0.864);
+}
+
+h2 {
+  margin-block-start: 10px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 16px;
+}
+
+input {
+  display: block;
+  height: 30px;
+  margin-block: 10px;
+  border: none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+  margin-block: 10px;
+  height: 40px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 16px;
+}

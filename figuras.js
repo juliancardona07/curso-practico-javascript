@@ -1,7 +1,7 @@
 ////////////////CODIGO CUADRADO///////////////
 //creacion de variables
 console.group("CUADRADO");
-//const ladoCuadrado = 5;
+const ladoCuadrado = 5;
 //imprimir texto
 console.log(`los lados del cuadrado miden: ${ladoCuadrado} cm`);
 //creando el perimetro
@@ -13,10 +13,6 @@ const areaCuadrado = ladoCuadrado * ladoCuadrado;
 //imprmiendo el area
 console.log(`el area del cuadrado mide: ${areaCuadrado} cm2`);
 console.groupEnd();
-
-function perimetroCuadrado2(lado) {
-  return ladoCuadrado * 4;
-}
 
 ////////////////CODIGO TRIANGULO///////////////
 //creacion de variables
@@ -34,10 +30,8 @@ console.log(
 console.log(`la altura del triangulo es ${alturaTriangulo} cm`);
 
 //creando el perimetro
-//const perimetroTriangulo = ladoTriangulo1 + ladoTriangulo2 + baseTriangulo;
-function perimetroTriangulo(lado1, lado2, base) {
-  return ladoTriangulo1 + ladoTriangulo2 + baseTriangulo;
-}
+const perimetroTriangulo = ladoTriangulo1 + ladoTriangulo2 + baseTriangulo;
+
 //imprmiendo el perimetro
 console.log(`el perimetro del triangulo mide: ${perimetroTriangulo} cm`);
 //creando el area
